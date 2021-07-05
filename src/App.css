@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.AboutUs,
+.products
+ {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+.home{
+  background-image: url('/src/components/images/mupaneworms.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('/src/components/images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(68, 67, 67);
+  color: rgb(231, 227, 227);
+  font-size: 100px;
+}
+.productsoffered{
+  background-color: rgb(8, 6, 6);
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+.Marulaoil{
+  background-color: dimgray;
+  text-align:center;
+  
+}
+
+.AboutUs{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:indigo;
+  color: rgb(231, 227, 227);
+ font-style: inherit;
+}
+.cooperatives{
+  margin: 60px;
+  padding: 100px;
+  background-position: center;
+  background-color:dimgray;
+  text-align: center;
+  font-size: 25px;
+  
+
+}
+.mission{
+  margin: 15px 0px 15px;
+  padding: 90px;
+  font-size: 25px;
+  background-color: dimgray;
+  text-align: center;
+  
+}
+.vision{
+  margin: 50px;
+  padding: 90px;
+  font-size: 25px;
+  background-color: dimgray;
+  text-align: center;
+}
+.Partnership{
+  margin: 20px 1px 0px;
+  padding: 90px;
+  font-size: 25px;
+  background-color: dimgray;
+  text-align: center;
+}
+.contactus{
+  background-color: darkgray;
+  color: #fff;
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
